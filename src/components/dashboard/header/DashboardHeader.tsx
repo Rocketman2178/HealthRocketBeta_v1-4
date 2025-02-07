@@ -95,7 +95,7 @@ export function DashboardHeader({
   };
 
   return (
-    <>
+    <div  id="rocket">
       <div className="bg-gray-800 py-4 sm:py-5 border-b border-gray-700 relative">
         <div className="max-w-6xl mx-auto px-4 relative">
           <div className="flex items-center justify-center gap-3 sm:gap-6">
@@ -157,6 +157,6 @@ export function DashboardHeader({
           onClose={() => setShowLevelModal(false)}
         />
       )}
-    </>
+    </div>
   );
 }
