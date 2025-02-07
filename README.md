@@ -1,2 +1,3 @@
-# HealthRocketBeta_v1-4
-Created with StackBlitz ⚡️
+# HealthRocket
+
+[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Rocketman2178/HealthRocket)
