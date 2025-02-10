@@ -30,7 +30,7 @@ export function ChallengeDetails({
 }: ChallengeDetailsProps) {
   const navigate = useNavigate();
   const isAlreadyActive = currentChallenges.some(
-    c => c.challenge_id === challenge.id || c.challenge_id === 'tc0'
+    c => c.challenge_id === challenge.id //|| c.challenge_id === 'tc0'
   );
 
   return (
