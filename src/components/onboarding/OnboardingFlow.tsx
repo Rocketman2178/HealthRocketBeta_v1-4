@@ -105,7 +105,13 @@ export function OnboardingFlow() {
       </div>
       <div className="relative z-10 w-full max-w-md">
         <div className="relative z-10 mt-0">
-          {userLoading ? <span>Loading...</span> : renderStep()}
+          {userLoading ? (
+            <div className="min-h-screen flex items-center justify-center">
+              <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-orange-500"></div>
+            </div>
+          ) : (
+            renderStep()
+          )}
         </div>
       </div>
     </div>
