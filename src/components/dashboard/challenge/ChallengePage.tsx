@@ -55,7 +55,7 @@ export function ChallengePage() {
         activeChallengesCount={1}
         maxChallenges={2}
         currentChallenges={[{
-          challenge_id: challenge.id || 'tc0',
+          challenge_id: challenge.id, //|| 'tc0'
           status: 'active'
         }]}
         hasCompletedTier0={true}
