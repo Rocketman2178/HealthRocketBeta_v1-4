@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { X, Send, Brain, Moon, Activity, Apple, Database, Rocket } from 'lucide-react';
 
 interface CosmoMessage {

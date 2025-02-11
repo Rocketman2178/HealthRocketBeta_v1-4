@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Settings, Radio, XCircle, ChevronRight } from 'lucide-react';
 import { useCosmo } from '../../contexts/CosmoContext';
 

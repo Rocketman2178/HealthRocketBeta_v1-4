@@ -1,6 +1,5 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import { Trophy, Compass, Target, Zap, Radio } from 'lucide-react';
 import { PlayerGuide } from "../guide/PlayerGuide";
 import { useCosmo } from "../../contexts/CosmoContext";
 

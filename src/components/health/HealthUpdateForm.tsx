@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { X, Heart, Activity, Info } from 'lucide-react';
+import { X, Heart, Activity } from 'lucide-react';
 import { Card } from '../ui/card';
-import { Tooltip } from '../ui/tooltip';
-import { Logo } from '../ui/logo';
 import type { CategoryScores } from '../../lib/health/types';
 
 interface HealthUpdateFormProps {

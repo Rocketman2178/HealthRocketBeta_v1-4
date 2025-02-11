@@ -25,7 +25,7 @@ export function calculateGrowth(current: number, previous: number): number {
 }
 
 // Scroll to section utility
-export function scrollToSection(id: string, block: ScrollLogicElement = 'center') {
+export function scrollToSection(id: string, block: ScrollLogicElement = 'start') {
   const element = document.getElementById(id);
   if (element) {
     element.scrollIntoView({ behavior: 'smooth', block });

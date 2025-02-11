@@ -1,12 +1,7 @@
-import React, { useState, useRef } from 'react';
-import { MessageCircle, X, Rocket, Battery, Flame, Target, Heart, Trophy, Brain, ChevronRight, Compass, Zap } from 'lucide-react';
-import { Card } from '../ui/card';
-import { cn } from '../../lib/utils';
-import { TopicTags } from './TopicTags';
+import React, { useState } from 'react';
+import {  Rocket, Battery, Flame, Target, Heart, Trophy, Brain, ChevronRight } from 'lucide-react';
 import { useSupabase } from '../../contexts/SupabaseContext';
 import { supabase } from '../../lib/supabase';
-import { GuideMessage as GuideMessageComponent } from './GuideMessage';
-
 interface FormattedSection {
   title: string;
   icon: React.ReactNode;
