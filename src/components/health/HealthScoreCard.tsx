@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Activity, Info, ChevronDown, ChevronUp } from 'lucide-react';
 import { Card } from '../ui/card';
 import { Progress } from '../ui/progress';

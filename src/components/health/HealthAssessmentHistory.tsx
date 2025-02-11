@@ -1,4 +1,3 @@
-import React from 'react';
 import { X, TrendingUp, TrendingDown, Minus, Activity, Calendar } from 'lucide-react';
 import type { HealthAssessment } from '../../types/health';
 

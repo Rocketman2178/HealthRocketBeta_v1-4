@@ -184,7 +184,7 @@ export function CosmoModal() {
                               <button
                                 onClick={() => {
                                   // Use the scroll_target from the recommendation
-                                  scrollToSection(rec.scroll_target, 'center');
+                                  scrollToSection(rec.scroll_target, 'start');
                                   hideCosmo();
                                 }}
                                 className="px-4 py-1.5 border border-orange-500 text-white text-xs font-medium rounded-lg hover:bg-orange-500/10 transition-colors shadow-lg hover:shadow-orange-500/10 mt-2"

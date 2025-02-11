@@ -1,8 +1,4 @@
-import React from 'react';
 import { Award, Calendar, Target } from 'lucide-react';
-import { quests } from '../../../data';
-import { Card } from '../../ui/card';
-
 interface CompletedQuest {
   id: string;
   quest_id: string;

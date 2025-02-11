@@ -1,4 +1,3 @@
-import React from 'react';
 import { History } from 'lucide-react';
 import { useCompletedActivities } from '../../../hooks/useCompletedActivities';
 import { useSupabase } from '../../../contexts/SupabaseContext';

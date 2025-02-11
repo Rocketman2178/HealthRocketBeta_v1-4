@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Clock, Plus, Zap } from 'lucide-react';
 import { Card } from '../ui/card';
 import { HealthUpdateForm } from './HealthUpdateForm';

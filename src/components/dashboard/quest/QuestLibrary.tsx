@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Target, Zap, ChevronDown, ChevronUp, Brain, Moon, Activity, Apple, Database, Award } from 'lucide-react';
+import { X, Target, Zap, ChevronDown, Brain, Moon, Activity, Apple, Database, Award } from 'lucide-react';
 import { quests, challenges, experts } from '../../../data';
 import type { Quest } from '../../../types/game';
 import { supabase } from '../../../lib/supabase';

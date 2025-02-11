@@ -1,4 +1,3 @@
-import React from 'react';
 import { Brain, Moon, Activity, Apple, Database } from 'lucide-react';
 import { CategoryScores } from '../../lib/health/types';
 
